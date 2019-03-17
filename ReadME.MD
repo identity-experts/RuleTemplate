@@ -1,8 +1,8 @@
-#RuleTemplate
+# RuleTemplate
 
 Template for creating Rule Extension projects for (MIIS/ILM)/FIM/MIM directly within Visual Studio
 
-##Overview
+## Overview
 
 This library is used to create a new project type in Visual Studio that enables you to create Rule Extension projects directly 
 rather than needing to use the FIM/MIM console.
@@ -15,7 +15,7 @@ Recommended usage is to break down your flow logic into "single-purpose" methods
 For example, the MapAttributesForImport method shouldn't contain any actual flow rules but can be used as an internal "router" to call the
 required method for each flow rule. This has advantages of improving readability and locatability of code, and adheres to the Single-function principle.
 
-##Using the library
+## Using the library
 
 * Create a local copy by downloading / pulling mvtemplate
 * Make sure that package definitions are upto date via nuget
